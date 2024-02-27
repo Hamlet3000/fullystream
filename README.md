@@ -15,12 +15,15 @@ Remote Administration (PLUS)
 
 **Running fullystream.py as service**
 
-1. copy fullystream.service to /etc/systemd/system/f
+1. copy fullystream.service to /etc/systemd/system/
 2. copy fullystream.py to /home/pi/
 3. reload daemon: sudo systemctl daemon-reload
 4. enable service: sudo systemctl enable fullystream.service
 5. start service: sudo systemctl start fullystream.service
 6. check if service is running: sudo systemctl status fullystream.service
 
+**retrieve stream**
+
+http://192.168.0.50:5000/fullystream
 
     
