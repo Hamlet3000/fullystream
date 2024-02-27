@@ -2,7 +2,6 @@ Converts the images from the fully kiosk browser camera into readable format for
 You have to replace the IP and PW with the IP of your fully kiosk browser device and its password.
 
 ## Fully Kiosk Browser Settings:
-
 Web Content Settings:
 -> Enable Webcam Access (PLUS) = ON
 
@@ -14,7 +13,6 @@ Remote Administration (PLUS)
 
 
 ## Running fullystream.py as service
-
 1. copy fullystream.service to /etc/systemd/system/
 2. copy fullystream.py to /home/pi/
 3. reload daemon: sudo systemctl daemon-reload
