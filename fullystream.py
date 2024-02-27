@@ -8,7 +8,10 @@ from flask import Flask, Response
 app = Flask(__name__)
 
 # Konfiguration
-URL = "http://FULLY_KIOSK_IP:2323/?cmd=getCamshot&password=YOUR_PASSWORD"
+FULLY_KIOSK_IP = "IP Adress"
+FULLY_KIOSK_PW = "Your Password"
+
+URL = "http://" + FULLY_KIOSK_IP + ":2323/?cmd=getCamshot&password=" + FULLY_KIOSK_PW
 
 ###############################################################################
 def run_loop():
